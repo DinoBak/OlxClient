@@ -13,7 +13,7 @@ namespace OlxClient.Models
         public string Description { get; set; }
         public int Price { get; set; }
         public int SellerId { get; set; }
-        public int Unit { get; set; }
+        public string Unit { get; set; }
         public string Status { get; set; }
     }
 }
